@@ -1,0 +1,302 @@
+  body,h1,h2,h3,h4,h5,h6,a,p{
+    font-family:'Work Sans',sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+.main-menu{
+    font-size: 20px;
+    
+}
+.main-header .navbar-brand{
+    font-size: 25px;
+    font-weight:500;
+}
+.main-header .navbar-brand:hover{
+    color: rgb(147, 144, 144);
+}
+
+.logo_img{
+    width: 50px;
+    height: 50px;
+}
+.main-header .nav-link{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+
+}
+
+
+
+
+/* Slider section */
+.slider_Section{
+    background: url(img/mbr-10.jpg)  no-repeat center center;
+    padding: 200px 0;
+    position: relative;
+    z-index: 99;
+}
+
+.slider_Section::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+
+}
+
+
+.slider_caption h4{
+    margin-bottom: 30px;
+}
+.slider_caption h2{
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+.slider_caption .get_Button button:hover{
+    background-color: white;
+    color: #0D6EFD;
+    border: 1px solid #0D6EFD;
+
+}
+
+/* Number Section */
+
+.number_section{
+    background-color: #ffffff;
+}
+
+/* About Section */
+
+.about_section{
+    background-color: #F7F9FF;
+}
+
+.about-text-left{
+    margin-top:180px;
+}
+
+.about-text-left .p_text{
+    line-height: 2.5rem;
+
+}
+
+/* Feature Section */
+.feature-item{
+    height: 300px;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.feature-item:hover{
+    box-shadow:0px 0px 4px 4px rgba(167, 190, 246, 0.404);
+    
+}
+
+.left_img_section{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+
+.right-text_section{
+    width: 60%;
+    padding: 20px;
+}
+.left_img_section img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left:-80px;
+    
+}
+
+
+/* Portfolio Section */
+
+
+.portfolio_item a{
+    position: relative;
+    display: block;
+
+}
+.portfolio_item a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background:rgba(132, 154, 228, 0.7);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.portfolio_item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+
+}
+
+
+/* pricing Section */
+
+.pricing-_item{
+    background-color: #fff;
+    padding: 50px;
+    box-shadow:2.5px 4.33px 30px 0 rgba(64, 97, 161, 0.1) ;
+    border-radius: 5px;
+}
+/* .pricing-_item h1{}
+.pricing-_item h5{} */
+.pricing-_item ul{
+    margin-left:0;
+    padding-left:0;
+    margin-bottom: 45px;
+}
+.pricing-_item ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    list-style: none;
+}
+
+.pricing-_item ul li span{
+    color: #6278DF;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 10px;
+    display: inline-block;
+    width: 30px;
+}
+
+
+.pricing_item_button a{
+    color: #6278DF;
+    background: #fff;
+    font-size: 20px;
+    padding: 20px;
+    border-style: none;
+    font-weight: bold;
+    box-shadow:2.5px 4.33px 30px 0 rgba(64, 96, 161, 0.319) ;
+}
+
+.pricing_item_button a:hover{
+    color: #fff;
+    background: #000;
+}
+
+
+/* Testomonial Section */
+
+
+.author_info{
+    width: 220px;
+    margin: auto ;
+}
+.author_info img{
+    width: 80px;
+    margin-right: 20px;
+    margin-left: 10px;
+    
+}
+
+.user_info{
+    
+    text-align: left;
+    position: relative;
+    top: 10px;
+}
+
+
+/* About Section */
+.about_section{
+    background-color: #F7F9FF;
+}
+
+.about_item{
+    margin-top: 150px;
+}
+.about_item .card{
+    padding: 20px;
+}
+.about_item .card img{
+    width: 130px;
+    height: auto;
+    margin-top: -100px;
+    
+}
+
+.card-button a:hover{
+    color: white;
+    background: #000;
+}
+
+.about_section .para{
+    font-size: 1.3rem;
+
+}
+
+
+/* Contact_section */
+
+.total-form{
+    background: fixed;
+
+    width: 800px;
+    height: auto;
+
+}
+
+
+.form_button input{
+   background-color: #6278DF;
+   color: white;
+}
+
+.form_button input:hover{
+    color:#6278DF ;
+    background: white;
+    border: 1.2px solid #6278DF;
+    box-shadow:3px 3px 27px -3px #6278df ;
+}
+
+
+/* App Info Section */
+.app2_button a{
+    background-color: #5BA533;
+    color: white;
+    border: 1px solid #5BA533 ;
+}
+
+.app2_button a:hover{
+    background-color: #000;
+    color: white;
+    border: 1px solid black;
+}
+
+.app1_button a{
+    background-color: white;
+    color: #5BA533;
+    border: 1px solid #5BA533;
+}
+
+.app1_button a:hover{
+    background-color: #5BA533;
+    color: white;
+    border: 1px solid #5BA533;
+
+}
+
+/* Footer Section */
+
+.footer_section{
+    background: #F7F9FF;
+}
+
